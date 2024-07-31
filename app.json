@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "cath",
-    "slug": "cath",
+    "name": "Cath Calculator",
+    "slug": "cath-calculator",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,13 +18,20 @@
       "supportsTablet": true
     },
     "android": {
+      "windowSoftInputMode": "adjustResize",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ismailkhalid.cathcalculator"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "787e29d2-f0c5-4e6c-ac31-21d4f82d81d4"
+      }
     }
   }
 }
